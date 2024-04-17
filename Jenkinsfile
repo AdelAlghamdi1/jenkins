@@ -46,7 +46,7 @@ pipeline {
         success {
             mail to: 'adelalghamdis2@gmail.com',
                  subject: "Build Successful Email",
-                 body: " build was successful Thanks."
+                 body: " build was successful."
         }
     }
 }
