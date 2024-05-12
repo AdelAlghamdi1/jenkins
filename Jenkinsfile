@@ -44,6 +44,7 @@ pipeline {
     }
     post {
         success {
+            echo 'Build was successful. Notification sent to adelalghamdis2@gmail.com'
             mail to: 'adelalghamdis2@gmail.com',
                  subject: "Build Successful Email",
                  body: " build was successful Thanks."
